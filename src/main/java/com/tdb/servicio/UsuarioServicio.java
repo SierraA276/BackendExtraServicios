@@ -7,10 +7,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author diego
- */
 @Service
 public class UsuarioServicio implements IUsuarioServicio{
 
@@ -34,7 +30,7 @@ public class UsuarioServicio implements IUsuarioServicio{
 
     @Override
     public void eliminarUsuario(Usuario usuario) {
-        usuarioRepositorio.delete(usuario); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        usuarioRepositorio.delete(usuario); 
     }
   
 }

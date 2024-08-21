@@ -36,6 +36,7 @@ public class ProductoControlador {
         productoExistente.setNombreProducto(producto.getNombreProducto());
         productoExistente.setDescripcionProducto(producto.getDescripcionProducto());
         productoExistente.setPrecioUnitario(producto.getPrecioUnitario());
+        productoExistente.setStock(producto.getStock());
         return productoServicio.guardarProducto(productoExistente);
     }
 
